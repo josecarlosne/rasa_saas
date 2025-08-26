@@ -1,0 +1,18 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+
+responses:
+  utter_greet:
+    - text: "¡Hola! Soy tu asistente. ¿En qué te ayudo?"
+  utter_goodbye:
+    - text: "¡Hasta luego!"
+  utter_iamabot:
+    - text: "Soy un asistente basado en Rasa 🙂"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

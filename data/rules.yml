@@ -1,0 +1,6 @@
+version: "3.1"
+rules:
+  - rule: responder a bot_challenge
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot

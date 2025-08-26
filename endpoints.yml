@@ -1,0 +1,4 @@
+# Apunta a tu servicio de actions en Render si usas acciones personalizadas.
+# Reemplaza NOMBRE-DEL-SERVICIO por el de tu servicio de acciones.
+action_endpoint:
+  url: "https://NOMBRE-DEL-SERVICIO.onrender.com/webhook"
